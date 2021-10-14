@@ -6,6 +6,8 @@ session middleware for working with session in Fano Framework.
 This project is generated using [Fano CLI](https://github.com/fanoframework/fano-cli)
 command line tools to help scaffolding web application using Fano Framework.
 
+![Session middleware application!](/preview.png "Session middleware application")
+
 ## Requirement
 
 - Linux or FreeBSD
