@@ -1,6 +1,7 @@
-# SCGI Fano Web Framework Skeleton Application
+# Session Middleware Example Application
 
-[SCGI](https://python.ca/scgi/protocol.txt) web application skeleton using Fano Framework, Pascal web application framework
+Example web application using Fano Framework, Pascal web application framework, to demonstrate how to use
+session middleware for working with session in Fano Framework.
 
 This project is generated using [Fano CLI](https://github.com/fanoframework/fano-cli)
 command line tools to help scaffolding web application using Fano Framework.
@@ -19,14 +20,14 @@ command line tools to help scaffolding web application using Fano Framework.
 ### TLDR
 Make sure all requirements are met. Run
 ```
-$ git clone https://your-repo-hostname/fano-app.git --recursive
-$ cd fano-app
+$ git clone https://github.com/fanoframework/session-middleware.git --recursive
+$ cd session-middleware
 $ ./tools/config.setup.sh
 $ ./build.sh
-$ sudo fanocli --deploy-scgi=fano-app.fano
+$ sudo fanocli --deploy-scgi=sess-mw.fano
 $ ./bin/app.cgi
 ```
-Open internet browser and go to `http://fano-app.fano`. You should see application.
+Open internet browser and go to `http://sess-mw.fano`. You should see application.
 
 ### Free Pascal installation
 
@@ -38,7 +39,7 @@ If you see something like `Free Pascal Compiler version 3.0.4`,  you are good to
 
 Clone this repository
 
-    $ git clone https://your-repo-hostname/fano-app.git --recursive
+    $ git clone https://github.com/fanoframework/session-middleware.git --recursive
 
 `--recursive` is needed so git also pull [Fano](https://github.com/fanoframework/fano) repository.
 
