@@ -8,3 +8,4 @@
 
 {---put your main dependencies registration here---}
 { container.add('db', TMySqlDbFactory.create()); }
+

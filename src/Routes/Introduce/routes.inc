@@ -5,9 +5,5 @@
  * @copyright Copyright (c) [[COPYRIGHT_YEAR]] [[COPYRIGHT_HOLDER]]
  * @license   [[LICENSE_URL]] ([[LICENSE]])
  *------------------------------------------------------------- *)
-{---put your routes registration here---}
-{ router.get('/', THomeControllerFactory.create()); }
-{$INCLUDE Home/routes.inc}
-{$INCLUDE Introduce/routes.inc}
-{$INCLUDE Profile/routes.inc}
-{$INCLUDE Unintroduce/routes.inc}
+
+router.post('/introduce', container.get('introduceController') as IRequestHandler);
